@@ -12,12 +12,10 @@ function Card(){
         setVal("")
     }
 
-    function delet(ind){
-        const newArray = list.filter((_, i)=>{i!==ind});
-
-        setList(newArray)
+    function delet(ind) {
+        const newArray = list.filter((_, i) => i !== ind);
+        setList(newArray);
     }
-
     function check(){
 
     }
