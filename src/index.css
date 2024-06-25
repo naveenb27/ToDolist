@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  font-family: "Noto Sans", sans-serif;
+}
+
+.nav-container{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 10px;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.mode{
+  cursor: pointer;
+  display: relative;
+}
+
+.symbol{
+  cursor: pointer;
+}
+
+.container{
+  margin-top: 1rem;
+  padding-inline: 10px;
+}
+
+.form{
+  display: flex;
+  gap: 10px;
+}
+
+.btn-1{
+  background-color: rgb(64, 166, 159);
+  border-radius: 4px;
+  padding-inline: 14px;
+  font-size: 1rem;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="text"]{
+  padding-block: 10px;
+  font-size: 1.2rem;
+  width: 95%;
+  padding-inline-start: 8px;
+  background-color: rgb(255, 218, 10);
+  border: 1px solid #444;
+  border-radius: 8px;
+}
+
+.logo{
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.displayNav{
+  margin-top: 10px;
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 98%;
+}
+
+.displayNav.active{
+  display: block;
+}
+
+
+
+.displayNav li{
+  border: 1px solid #444;
+  padding-inline: 10px;
+  padding-block: 12px;
+  background-color: #444;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.displayNav li:hover{
+  background-color: #222; 
+}
+.displayNav li:last-child{
+  background-color: #fff;
+  color: #444;
+}
+
+.displayNav li:last-child:hover{
+  background-color: #eee;
+}
+
+.show{
+  margin-top: 15px;
+}
+
+.show{
+  list-style: none;
+}
+
+.list-values{
+  font-size: 1.2rem;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding-inline: 10px;
+  padding-block: 7px;
+  color: #222;
+  background-color: violet;
+  margin-bottom: 12px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete{
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: red;
+  margin-left: 10px;
+  color: #fff;
+  box-shadow: 1px 2px 5px 1px #444;
+  cursor: pointer;
+}
+
+.check{
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: rgb(0, 201, 0);
+  margin-left: 10px;
+  color: #fff;
+  box-shadow: 1px 2px 5px 1px #888; 
+  cursor: pointer;
+}
